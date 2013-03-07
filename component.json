@@ -1,0 +1,17 @@
+{
+  "name": "toc",
+  "repo": "nrako/toc",
+  "description": "Table of content component",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js",
+    "template.js"
+  ],
+  "styles": [
+    "toc.css"
+  ]
+}
