@@ -1,14 +1,14 @@
 
-build: components index.js toc.css template.js
+build: components index.js lib/toc.css lib/template.js
 	@component build --dev
 
-template.js: template.html
+lib/template.js: lib/template.html
 	@component convert $<
 
 components: component.json
 	@component install --dev
 
 clean:
-	rm -fr build components template.js
+	rm -fr build components lib/template.js
 
 .PHONY: clean

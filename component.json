@@ -1,17 +1,23 @@
 {
   "name": "toc",
   "repo": "nrako/toc",
-  "description": "Table of content component",
+  "description": "Table of content UI component",
   "version": "0.0.1",
-  "keywords": [],
-  "dependencies": {},
-  "development": {},
+  "keywords": ["toc", "table of content", "ui", "heading", "menu"],
+  "dependencies": {
+    "component/jquery": "*",
+    "component/range": "*"
+  },
+  "development": {
+    "component/assert": "*"
+  },
   "license": "MIT",
   "scripts": [
     "index.js",
-    "template.js"
+    "lib/toc.js",
+    "lib/template.js"
   ],
   "styles": [
-    "toc.css"
+    "lib/toc.css"
   ]
 }
