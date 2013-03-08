@@ -40,6 +40,7 @@ toc.build();
 * Accept context and selector — OMG!
 * Use list nesting for hierarchy.
 * Hierarchy fault tolerant, add `.warning` on heading when its hierarchy is messed-up.
+* For anchoring assign unique friendly slug id to heading when missing
 
 ## API
 
@@ -47,7 +48,7 @@ toc.build();
 
   Initialize a new `Toc`.
   Can take a new given default `context` default to `'body'` and given `selector`,
-  default to `'h1[id],h2[id],h3[id],h4[id],h5[id],h6[id]'`.
+  default to `'h1,h2,h3,h4,h5,h6'`.
 
 ### `Toc.parse([context, selector])`
 
@@ -61,7 +62,6 @@ toc.build();
 
 ## TODO
 
-* Add id when missing on heading
 * Get ride of jquery — maybe
 
 ## License

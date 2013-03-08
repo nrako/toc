@@ -6,7 +6,8 @@
   "keywords": ["toc", "table of content", "ui", "heading", "menu"],
   "dependencies": {
     "component/jquery": "*",
-    "component/range": "*"
+    "component/range": "*",
+    "yields/slug": "*"
   },
   "development": {
     "component/assert": "*"
