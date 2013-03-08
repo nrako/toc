@@ -2,10 +2,10 @@
   "name": "toc",
   "repo": "nrako/toc",
   "description": "Table of content UI component",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "keywords": ["toc", "table of content", "ui", "heading", "menu"],
   "dependencies": {
-    "component/jquery": "*",
+    "component/dom": "*",
     "component/range": "*",
     "yields/slug": "*"
   },

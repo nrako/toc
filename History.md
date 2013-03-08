@@ -3,3 +3,4 @@
 ==================
 
   * Add support for heading without id
+  * jQuery free rely on component/dom

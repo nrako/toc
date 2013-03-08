@@ -60,10 +60,6 @@ toc.build();
 
   Build dom `el` toc content from `tree` data.
 
-## TODO
-
-* Get ride of jquery — maybe
-
 ## License
 
   MIT
