@@ -1,0 +1,39 @@
+<style>
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  h1,h2,h3 {
+    margin-bottom: 200px;
+  }
+</style>
+<script src="build/build.js"></script>
+<link rel="stylesheet" type="text/css" href="build/build.css" media="screen" charset="utf-8">
+
+
+<h1 id="1">Title 1</h1>
+<h2 id="11">Title 1.1</h2>
+<h3 id="111">Title 1.1.1</h3>
+<div id="context">
+  <h2 id="12">Title 1.2</h2>
+  <h1 id="2">Title 2</h1>
+  <h3 id="2x1">Title 2.x.1</h3>
+</div>
+
+
+<script type="text/javascript">
+  var Toc = require('toc');
+
+  var toc = new Toc();
+  // example set new default context
+  //var toc = new Toc('#context');
+
+  toc.el.prepend('<li><a href="http://component.io/nrako/toc">toc - component.io</a></li>');
+
+  toc.el.appendTo('body');
+
+  // example rebuild toc with custom context and custom selector
+  //toc.parse('#context', 'h1[id],h2[id]');
+  //toc.build();
+
+  console.log(toc.tree);
+</script>
